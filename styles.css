@@ -1,0 +1,82 @@
+#about {
+    text-align: center;
+    margin-top: 10px ;
+    justify-content: center;
+  }
+  
+  .profile-photo {
+    border: 2px solid black;
+    border-radius: 80% /* to make the photo circular */
+    width: 150px; /* adjust according to your photo size */
+    height: 150px; /* adjust according to your photo size */
+  }
+  
+  .description {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    
+  }
+  
+  #work-samples {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .work-sample {
+    align-items: center;
+    margin-bottom: 20px ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .work-sample img {
+    width: 200px; /* adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .work-sample ul {
+    list-style-type: none; /* remove bullet symbols */
+    font-family: Arial, sans-serif; /* change font */
+    font-size: 16px; /* change font size */
+    padding-left: 0;
+  }
+  
+  .work-sample ul li {
+    margin-bottom: 5px; /* adjust spacing between list items */
+    vertical-align: middle; /* align text vertically with image */
+    padding-left: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center text horizontally */
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 0 20px; /* Add padding to the sides */
+    box-sizing: border-box; /* Include padding in the total width */
+  }
+
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+  }
+
+  #content {
+    padding: 20px 0;
+  }
+
+  #footer {
+    background-color: #333;
+    color: #4B8F8C;
+    padding: 10px 0;
+  }
